@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B7A8FCA29186ED100D35BBD /* BrowserForDolphinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7A8FC929186ED100D35BBD /* BrowserForDolphinApp.swift */; };
+		1B7A8FCC29186ED100D35BBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7A8FCB29186ED100D35BBD /* ContentView.swift */; };
+		1B7A8FCE29186ED200D35BBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7A8FCD29186ED200D35BBD /* Assets.xcassets */; };
+		1B7A8FD129186ED200D35BBD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7A8FD029186ED200D35BBD /* Preview Assets.xcassets */; };
+		1B7A8FD92918710F00D35BBD /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7A8FD82918710F00D35BBD /* GameManager.swift */; };
+		1B7A8FDB2918712800D35BBD /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7A8FDA2918712800D35BBD /* Game.swift */; };
+		1B7A8FDD2918752900D35BBD /* CoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7A8FDC2918752900D35BBD /* CoverView.swift */; };
+		1B7A8FDF291A210F00D35BBD /* InputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7A8FDE291A210F00D35BBD /* InputController.swift */; };
+		1B7A8FE1291A237300D35BBD /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7A8FE0291A237300D35BBD /* ViewModel.swift */; };
+		1B7A8FE6291AC34B00D35BBD /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7A8FE5291AC34B00D35BBD /* HelpView.swift */; };
+		1B7A8FE8291ACABB00D35BBD /* DolphinController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7A8FE7291ACABB00D35BBD /* DolphinController.swift */; };
+		1B7A8FEA291AD88800D35BBD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7A8FE9291AD88800D35BBD /* SettingsView.swift */; };
+		1B7A8FEC291AD9CC00D35BBD /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7A8FEB291AD9CC00D35BBD /* UserDefaults.swift */; };
+		1B7A8FF3291B378900D35BBD /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7A8FF2291B378900D35BBD /* AudioController.swift */; };
+		1B7A8FF6291B38C600D35BBD /* Focus.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1B7A8FF4291B38C600D35BBD /* Focus.wav */; };
+		1B7A8FF7291B38C600D35BBD /* Select.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1B7A8FF5291B38C600D35BBD /* Select.wav */; };
+		1B7A8FF9291D8E4C00D35BBD /* FocusManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7A8FF8291D8E4C00D35BBD /* FocusManager.swift */; };
+		1B7A8FFF29234A0800D35BBD /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7A8FFE29234A0800D35BBD /* WebView.swift */; };
+		1B7A900129234BCD00D35BBD /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = 1B7A900029234BCD00D35BBD /* background.html */; };
+		1B7A900429249B5000D35BBD /* clock.html in Resources */ = {isa = PBXBuildFile; fileRef = 1B7A900329249B5000D35BBD /* clock.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B7A8FC629186ED100D35BBD /* Browser for Dolphin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Browser for Dolphin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B7A8FC929186ED100D35BBD /* BrowserForDolphinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserForDolphinApp.swift; sourceTree = "<group>"; };
+		1B7A8FCB29186ED100D35BBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1B7A8FCD29186ED200D35BBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B7A8FD029186ED200D35BBD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B7A8FD229186ED200D35BBD /* BrowserForDolphin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BrowserForDolphin.entitlements; sourceTree = "<group>"; };
+		1B7A8FD82918710F00D35BBD /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		1B7A8FDA2918712800D35BBD /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		1B7A8FDC2918752900D35BBD /* CoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverView.swift; sourceTree = "<group>"; };
+		1B7A8FDE291A210F00D35BBD /* InputController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputController.swift; sourceTree = "<group>"; };
+		1B7A8FE0291A237300D35BBD /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		1B7A8FE5291AC34B00D35BBD /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		1B7A8FE7291ACABB00D35BBD /* DolphinController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DolphinController.swift; sourceTree = "<group>"; };
+		1B7A8FE9291AD88800D35BBD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1B7A8FEB291AD9CC00D35BBD /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		1B7A8FF2291B378900D35BBD /* AudioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioController.swift; sourceTree = "<group>"; };
+		1B7A8FF4291B38C600D35BBD /* Focus.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Focus.wav; sourceTree = "<group>"; };
+		1B7A8FF5291B38C600D35BBD /* Select.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Select.wav; sourceTree = "<group>"; };
+		1B7A8FF8291D8E4C00D35BBD /* FocusManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusManager.swift; sourceTree = "<group>"; };
+		1B7A8FFE29234A0800D35BBD /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		1B7A900029234BCD00D35BBD /* background.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = background.html; sourceTree = "<group>"; };
+		1B7A900329249B5000D35BBD /* clock.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = clock.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B7A8FC329186ED100D35BBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B7A8FBD29186ED100D35BBD = {
+			isa = PBXGroup;
+			children = (
+				1B7A8FC829186ED100D35BBD /* Browser for Dolphin */,
+				1B7A8FC729186ED100D35BBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B7A8FC729186ED100D35BBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B7A8FC629186ED100D35BBD /* Browser for Dolphin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B7A8FC829186ED100D35BBD /* Browser for Dolphin */ = {
+			isa = PBXGroup;
+			children = (
+				1B7A8FC929186ED100D35BBD /* BrowserForDolphinApp.swift */,
+				1B7A8FE2291AC1EA00D35BBD /* Views */,
+				1B7A8FE3291AC1F900D35BBD /* Controllers */,
+				1B7A8FE4291AC20400D35BBD /* Models */,
+				1B7A9002292496E000D35BBD /* HTML */,
+				1B7A8FED291B374100D35BBD /* Sounds */,
+				1B7A8FCD29186ED200D35BBD /* Assets.xcassets */,
+				1B7A8FD229186ED200D35BBD /* BrowserForDolphin.entitlements */,
+				1B7A8FCF29186ED200D35BBD /* Preview Content */,
+			);
+			path = "Browser for Dolphin";
+			sourceTree = "<group>";
+		};
+		1B7A8FCF29186ED200D35BBD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1B7A8FD029186ED200D35BBD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1B7A8FE2291AC1EA00D35BBD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1B7A8FCB29186ED100D35BBD /* ContentView.swift */,
+				1B7A8FFE29234A0800D35BBD /* WebView.swift */,
+				1B7A8FDC2918752900D35BBD /* CoverView.swift */,
+				1B7A8FE5291AC34B00D35BBD /* HelpView.swift */,
+				1B7A8FE9291AD88800D35BBD /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1B7A8FE3291AC1F900D35BBD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B7A8FE0291A237300D35BBD /* ViewModel.swift */,
+				1B7A8FD82918710F00D35BBD /* GameManager.swift */,
+				1B7A8FDE291A210F00D35BBD /* InputController.swift */,
+				1B7A8FF8291D8E4C00D35BBD /* FocusManager.swift */,
+				1B7A8FE7291ACABB00D35BBD /* DolphinController.swift */,
+				1B7A8FF2291B378900D35BBD /* AudioController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1B7A8FE4291AC20400D35BBD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1B7A8FDA2918712800D35BBD /* Game.swift */,
+				1B7A8FEB291AD9CC00D35BBD /* UserDefaults.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1B7A8FED291B374100D35BBD /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1B7A8FF4291B38C600D35BBD /* Focus.wav */,
+				1B7A8FF5291B38C600D35BBD /* Select.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		1B7A9002292496E000D35BBD /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+				1B7A900329249B5000D35BBD /* clock.html */,
+				1B7A900029234BCD00D35BBD /* background.html */,
+			);
+			path = HTML;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B7A8FC529186ED100D35BBD /* Browser for Dolphin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B7A8FD529186ED200D35BBD /* Build configuration list for PBXNativeTarget "Browser for Dolphin" */;
+			buildPhases = (
+				1B7A8FC229186ED100D35BBD /* Sources */,
+				1B7A8FC329186ED100D35BBD /* Frameworks */,
+				1B7A8FC429186ED100D35BBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Browser for Dolphin";
+			productName = "GC Browser";
+			productReference = 1B7A8FC629186ED100D35BBD /* Browser for Dolphin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B7A8FBE29186ED100D35BBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					1B7A8FC529186ED100D35BBD = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 1B7A8FC129186ED100D35BBD /* Build configuration list for PBXProject "Browser for Dolphin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B7A8FBD29186ED100D35BBD;
+			productRefGroup = 1B7A8FC729186ED100D35BBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B7A8FC529186ED100D35BBD /* Browser for Dolphin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B7A8FC429186ED100D35BBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7A8FD129186ED200D35BBD /* Preview Assets.xcassets in Resources */,
+				1B7A8FF6291B38C600D35BBD /* Focus.wav in Resources */,
+				1B7A8FF7291B38C600D35BBD /* Select.wav in Resources */,
+				1B7A900129234BCD00D35BBD /* background.html in Resources */,
+				1B7A8FCE29186ED200D35BBD /* Assets.xcassets in Resources */,
+				1B7A900429249B5000D35BBD /* clock.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B7A8FC229186ED100D35BBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7A8FDF291A210F00D35BBD /* InputController.swift in Sources */,
+				1B7A8FF9291D8E4C00D35BBD /* FocusManager.swift in Sources */,
+				1B7A8FCC29186ED100D35BBD /* ContentView.swift in Sources */,
+				1B7A8FE8291ACABB00D35BBD /* DolphinController.swift in Sources */,
+				1B7A8FEC291AD9CC00D35BBD /* UserDefaults.swift in Sources */,
+				1B7A8FDD2918752900D35BBD /* CoverView.swift in Sources */,
+				1B7A8FD92918710F00D35BBD /* GameManager.swift in Sources */,
+				1B7A8FEA291AD88800D35BBD /* SettingsView.swift in Sources */,
+				1B7A8FCA29186ED100D35BBD /* BrowserForDolphinApp.swift in Sources */,
+				1B7A8FE6291AC34B00D35BBD /* HelpView.swift in Sources */,
+				1B7A8FDB2918712800D35BBD /* Game.swift in Sources */,
+				1B7A8FF3291B378900D35BBD /* AudioController.swift in Sources */,
+				1B7A8FE1291A237300D35BBD /* ViewModel.swift in Sources */,
+				1B7A8FFF29234A0800D35BBD /* WebView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1B7A8FD329186ED200D35BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B7A8FD429186ED200D35BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1B7A8FD629186ED200D35BBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Browser for Dolphin/BrowserForDolphin.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"Browser for Dolphin/Preview Content\"";
+				DEVELOPMENT_TEAM = VA3SY54YU8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaydenirwin.browserfordolphin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1B7A8FD729186ED200D35BBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Browser for Dolphin/BrowserForDolphin.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"Browser for Dolphin/Preview Content\"";
+				DEVELOPMENT_TEAM = VA3SY54YU8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaydenirwin.browserfordolphin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B7A8FC129186ED100D35BBD /* Build configuration list for PBXProject "Browser for Dolphin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B7A8FD329186ED200D35BBD /* Debug */,
+				1B7A8FD429186ED200D35BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B7A8FD529186ED200D35BBD /* Build configuration list for PBXNativeTarget "Browser for Dolphin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B7A8FD629186ED200D35BBD /* Debug */,
+				1B7A8FD729186ED200D35BBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B7A8FBE29186ED100D35BBD /* Project object */;
+}
